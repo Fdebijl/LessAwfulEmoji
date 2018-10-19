@@ -1,6 +1,6 @@
 ![Demo](header.png)
-<br>
-<br>
+<br><br><br>
+
 # Installation
 ### Mac
 1. Select the Emoji style you want and copy the contents of the corresponding .js file in the scripts folder (for example, apple.js).
@@ -27,9 +27,8 @@
 2. Navigate to `/snap/slack/9/usr/lib/slack/resources/app.asar.unpacked/src/static`
 3. Paste the contents of the .js file you copied earlier at the end of **ssb-interop.js**. 
 4. Restart slack to see the effects.
-<br>
-<br>
-<br>
+
+<br><br><br>
 # My other projects
 ## [Cachedview](https://cachedview.nl/)
 View cached/archived versions of a page easily and for multiple providers
