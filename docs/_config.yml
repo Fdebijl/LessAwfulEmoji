@@ -1,1 +1,4 @@
 theme: jekyll-theme-minimal
+title: Less Awful Emoji
+description: Replace Slack's default emoji with those from Facebook, Messenger, Apple or Twitter
+show_downloads: true
