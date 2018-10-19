@@ -11,11 +11,11 @@ Select the Emoji style you want (either Apple or Google, for the moment) and cop
 
 ### Windows
 1. Press Win + R to open the Run menu. 
-2a. Go to `%LOCALAPPDATA%\slack` by pasting this in the Run menu and pressing enter. 
-2b. Alternatively navigate to C:\Users\USERNAME\AppData\Local\slack in Windows Explorer. 
-3. Find and open the latest version directory (for example: 3.3.3) and go to `resources\app.asar.unpacked\src\static`. 
-4. Paste the contents of the .js file you copied earlier at the end of *ssb-interop.js*. 
-5. Restart slack to see the effects (Ctrl + R works just fine).
+2. Go to `%LOCALAPPDATA%\slack` by pasting this in the Run menu and pressing enter. 
+3. (Optional) Alternatively navigate to C:\Users\USERNAME\AppData\Local\slack in Windows Explorer. 
+4. Find and open the latest version directory (for example: 3.3.3) and go to `resources\app.asar.unpacked\src\static`. 
+5. Paste the contents of the .js file you copied earlier at the end of *ssb-interop.js*. 
+6. Restart slack to see the effects (Ctrl + R works just fine).
 
 ## Attribution
 Spritesheets are sourced from https://github.com/iamcal/emoji-data
