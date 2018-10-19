@@ -1,6 +1,8 @@
 # Installation
 Select the Emoji style you want and copy the contents of the corresponding .js file.
 
+![Demo](header.png)
+
 ### Mac
 1. Navigate to `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static`
 2. Paste the contents of the .js file at the end of **ssb-interop.js**. 

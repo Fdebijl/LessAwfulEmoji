@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
   let content = `
   .emoji[style*="a.slack-edge.com"] { background-image: url("https://github.com/Fdebijl/LessAwfulEmoji/raw/master/img/sheet_messenger_64_indexed_256.png") !important; }
