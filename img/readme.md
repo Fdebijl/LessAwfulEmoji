@@ -12,19 +12,19 @@ Slack sources their emoji spritesheet from [emoji-data](https://github.com/iamca
     make
     make install
     cd ..
-    rm -rf advancecomp-1.20*
+    rm -rf advancecomp-1.20
 
     wget -Opngcrush-1.8.13.tar.gz "https://downloads.sourceforge.net/project/pmt/pngcrush/1.8.13/pngcrush-1.8.13.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fpmt%2Ffiles%2Fpngcrush%2F1.8.13%2Fpngcrush-1.8.13.tar.gz%2Fdownload&ts=1539950400"
     tar xzf pngcrush-1.8.13.tar.gz
     cd pngcrush-1.8.13/
     make
     cp pngcrush /usr/local/bin/
-    rm -rf pngcrush-1.8.13*
+    rm -rf pngcrush-1.8.13
 
     wget http://static.jonof.id.au/dl/kenutils/pngout-20150319-linux-static.tar.gz
     tar xzf pngout-20150319-linux-static.tar.gz
     cp pngout-20150319-linux-static/x86_64/pngout-static /usr/local/bin
-    rm -rf pngout-20150319-linux-static*
+    rm -rf pngout-20150319-linux-static
 
     wget -Ooptipng-0.7.6.tar.gz "http://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-0.7.6/optipng-0.7.6.tar.gz?r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Foptipng%2Ffiles%2FOptiPNG%2Foptipng-0.7.6%2F&ts=1465493988&use_mirror=heanet"
     tar xzf optipng-0.7.6.tar.gz
@@ -33,7 +33,7 @@ Slack sources their emoji spritesheet from [emoji-data](https://github.com/iamca
     make
     make install
     cd ..
-    rm -rf optipng-0.7.6*
+    rm -rf optipng-0.7.6
 
     apt-get install libpng-dev
     git clone git://github.com/pornel/pngquant.git
