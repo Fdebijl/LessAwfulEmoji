@@ -3,7 +3,11 @@ Slack sources their emoji spritesheet from [emoji-data](https://github.com/iamca
 
 1. Install dependencies
 ```
-apt-get install php
+sudo apt-get install php
+
+sudo add-apt-repository ppa:isage-dna/imagick
+sudo apt-get update
+sudo apt-get upgrade
 
 wget https://github.com/amadvance/advancecomp/releases/download/v1.20/advancecomp-1.20.tar.gz
 tar xzf advancecomp-1.20.tar.gz
