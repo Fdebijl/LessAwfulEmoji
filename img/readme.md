@@ -4,10 +4,7 @@ Slack sources their emoji spritesheet from [emoji-data](https://github.com/iamca
 1. Install dependencies
 ```
 sudo apt-get install php
-
-sudo add-apt-repository ppa:isage-dna/imagick
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get install imagemagick-6.q16
 
 wget https://github.com/amadvance/advancecomp/releases/download/v1.20/advancecomp-1.20.tar.gz
 tar xzf advancecomp-1.20.tar.gz
@@ -62,24 +59,24 @@ rm -rf zopfli
 
 2. Clone [emoji-data](https://github.com/iamcal/emoji-data/) 
 ```
-    git clone https://github.com/iamcal/emoji-data.git emoji-data
-    cd emoji-data/build
+git clone https://github.com/iamcal/emoji-data.git emoji-data
+cd emoji-data/build
 ```
 
 3. Set build_image.php to generate seamless spritesheets
 ```
-    sed -i 's/$space = 1/$space = 0/g' build_image.php
+sed -i 's/$space = 1/$space = 0/g' build_image.php
 ```
 
 4. Build normal spritesheets and run quant_sheets on them
 ```
-    php build_image.php
-    chmod +x ./quant_sheets.sh
-    ./quant_sheets.sh
+php build_image.php
+chmod +x ./quant_sheets.sh
+./quant_sheets.sh
 ```
 
 5. Move the quantized sheets up to /img
 ```
-    cd ../sheets-indexed-256
-    cp -t ../ sheet_apple_64_indexed_256.png sheet_facebook_64_indexed_256.png sheet_google_64_indexed_256.png sheet_messenger_64_indexed_256.png sheet_twitter_64_indexed_256.png
+cd ../sheets-indexed-256
+cp -t ../ sheet_apple_64_indexed_256.png sheet_facebook_64_indexed_256.png sheet_google_64_indexed_256.png sheet_messenger_64_indexed_256.png sheet_twitter_64_indexed_256.png
 ```
